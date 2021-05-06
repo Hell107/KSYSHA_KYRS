@@ -118,43 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="SATURN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SATURN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mercury_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mercury_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MERCURY_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MERCURY_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="VENUS_q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VENUS_q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JUPITER_BRP_TRUE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JUPITER_BRP_TRUE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MARS_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MARS_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="saturn_carousel_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\saturn_carousel_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mars_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mars_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="close2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="jupiter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jupiter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="JUPITER_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JUPITER_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="JUPITER_BRP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JUPITER_BRP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JUPITER_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JUPITER_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEPTUN_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEPTUN_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MARS_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MARS_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTH_CLOUD_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTH_CLOUD_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MERCURY_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MERCURY_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sun_for_earth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sun_for_earth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="URANUS_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\URANUS_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTH_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTH_SOLO1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEPTUN_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEPTUN_SOLO1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jupiter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jupiter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saturn_carousel_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saturn_carousel_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="URANUS_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\URANUS_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mars_small1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mars_small1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mars_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mars_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud_t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earthq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earthq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VENUS_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VENUS_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SATURN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SATURN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MOON1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MOON1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EARTH_N_SOLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EARTH_N_SOLO.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MOON_NED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MOON_NED.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prewiev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prewiev.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mercury_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mercury_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SS_MAIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SS_MAIN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

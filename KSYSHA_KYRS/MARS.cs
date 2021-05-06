@@ -28,7 +28,22 @@ namespace KSYSHA_KYRS
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            MAIN f = new MAIN();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
 
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
         }
 
         private void label13_Click(object sender, EventArgs e)
@@ -94,6 +109,117 @@ namespace KSYSHA_KYRS
 
             }
             Hide();
+        }
+
+        private void earth_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
+
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
+        }
+
+        private void venus_Click(object sender, EventArgs e)
+        {
+            VENUS f = new VENUS();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
+
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+            URAN f = new URAN();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
+
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
+        
+    }
+
+        private void neptune_Click(object sender, EventArgs e)
+        {
+            NEPTUN f = new NEPTUN();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
+
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

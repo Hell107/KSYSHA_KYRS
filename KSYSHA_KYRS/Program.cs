@@ -21,7 +21,7 @@ namespace KSYSHA_KYRS
             if (Environment.OSVersion.Version.Major >= 6) SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SS_Prewiev());
 
             
 

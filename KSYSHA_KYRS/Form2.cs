@@ -299,23 +299,84 @@ namespace KSYSHA_KYRS
 
         private void earth_Click(object sender, EventArgs e)
         {
+            Form3 f = new Form3();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
 
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
         }
 
         private void neptune_Click(object sender, EventArgs e)
         {
+            NEPTUN f = new NEPTUN();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
 
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
         }
 
         private void venus_Click(object sender, EventArgs e)
         {
+            VENUS f = new VENUS();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
 
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
         }
 
         private void label31_Click_1(object sender, EventArgs e)
         {
+            URAN f = new URAN();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
 
-        }
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
+        
+    }
 
         private void label30_Click(object sender, EventArgs e)
         {
@@ -329,7 +390,22 @@ namespace KSYSHA_KYRS
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            MAIN f = new MAIN();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
 
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
         }
     }
 }

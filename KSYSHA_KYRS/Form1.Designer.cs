@@ -120,7 +120,6 @@ namespace KSYSHA_KYRS
             // 
             // panel7
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.label18);
             this.panel7.Controls.Add(this.label19);
             this.panel7.Location = new System.Drawing.Point(106, 762);
@@ -165,7 +164,6 @@ namespace KSYSHA_KYRS
             // 
             // panel6
             // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label14);
             this.panel6.Controls.Add(this.label16);
             this.panel6.Location = new System.Drawing.Point(106, 689);
@@ -210,7 +208,6 @@ namespace KSYSHA_KYRS
             // 
             // panel5
             // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label13);
             this.panel5.Location = new System.Drawing.Point(106, 617);
             this.panel5.Name = "panel5";
@@ -243,7 +240,6 @@ namespace KSYSHA_KYRS
             // 
             // panel4
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Location = new System.Drawing.Point(106, 544);
@@ -288,7 +284,6 @@ namespace KSYSHA_KYRS
             // 
             // panel3
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Location = new System.Drawing.Point(106, 473);
@@ -334,7 +329,7 @@ namespace KSYSHA_KYRS
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F);
             this.label1.Location = new System.Drawing.Point(99, 242);
             this.label1.Name = "label1";
@@ -346,6 +341,7 @@ namespace KSYSHA_KYRS
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.label3.Location = new System.Drawing.Point(233, 256);
             this.label3.Name = "label3";
@@ -356,6 +352,7 @@ namespace KSYSHA_KYRS
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.label2.Location = new System.Drawing.Point(102, 279);
             this.label2.Name = "label2";
@@ -368,6 +365,7 @@ namespace KSYSHA_KYRS
             // 
             // label4
             // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.label4.Location = new System.Drawing.Point(1359, 146);
             this.label4.Name = "label4";
@@ -379,7 +377,6 @@ namespace KSYSHA_KYRS
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label21);
             this.panel1.Controls.Add(this.label22);
             this.panel1.Location = new System.Drawing.Point(1518, 828);
@@ -403,11 +400,11 @@ namespace KSYSHA_KYRS
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label22.Location = new System.Drawing.Point(209, 5);
+            this.label22.Location = new System.Drawing.Point(251, 6);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(72, 20);
+            this.label22.Size = new System.Drawing.Size(27, 20);
             this.label22.TabIndex = 3;
-            this.label22.Text = "цельсий";
+            this.label22.Text = "°C";
             this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // label23
@@ -424,7 +421,6 @@ namespace KSYSHA_KYRS
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.label25);
             this.panel2.Location = new System.Drawing.Point(1518, 755);
@@ -469,7 +465,6 @@ namespace KSYSHA_KYRS
             // 
             // panel8
             // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.label27);
             this.panel8.Controls.Add(this.label28);
             this.panel8.Location = new System.Drawing.Point(1518, 683);
@@ -541,6 +536,7 @@ namespace KSYSHA_KYRS
             // 
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label31.Location = new System.Drawing.Point(1219, 996);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(64, 23);
@@ -552,6 +548,7 @@ namespace KSYSHA_KYRS
             // 
             this.venus.AutoSize = true;
             this.venus.BackColor = System.Drawing.Color.Transparent;
+            this.venus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.venus.Location = new System.Drawing.Point(618, 996);
             this.venus.Name = "venus";
             this.venus.Size = new System.Drawing.Size(84, 23);
@@ -563,6 +560,7 @@ namespace KSYSHA_KYRS
             // 
             this.neptune.AutoSize = true;
             this.neptune.BackColor = System.Drawing.Color.Transparent;
+            this.neptune.Cursor = System.Windows.Forms.Cursors.Hand;
             this.neptune.Location = new System.Drawing.Point(1311, 996);
             this.neptune.Name = "neptune";
             this.neptune.Size = new System.Drawing.Size(84, 23);
@@ -574,6 +572,7 @@ namespace KSYSHA_KYRS
             // 
             this.earth.AutoSize = true;
             this.earth.BackColor = System.Drawing.Color.Transparent;
+            this.earth.Cursor = System.Windows.Forms.Cursors.Hand;
             this.earth.Location = new System.Drawing.Point(739, 996);
             this.earth.Name = "earth";
             this.earth.Size = new System.Drawing.Size(75, 23);
@@ -585,6 +584,7 @@ namespace KSYSHA_KYRS
             // 
             this.mercury.AutoSize = true;
             this.mercury.BackColor = System.Drawing.Color.Transparent;
+            this.mercury.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mercury.Location = new System.Drawing.Point(464, 996);
             this.mercury.Name = "mercury";
             this.mercury.Size = new System.Drawing.Size(117, 23);
@@ -596,6 +596,7 @@ namespace KSYSHA_KYRS
             // 
             this.mars.AutoSize = true;
             this.mars.BackColor = System.Drawing.Color.Transparent;
+            this.mars.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mars.Location = new System.Drawing.Point(851, 996);
             this.mars.Name = "mars";
             this.mars.Size = new System.Drawing.Size(70, 23);
@@ -607,6 +608,7 @@ namespace KSYSHA_KYRS
             // 
             this.saturn.AutoSize = true;
             this.saturn.BackColor = System.Drawing.Color.Transparent;
+            this.saturn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.saturn.ForeColor = System.Drawing.Color.White;
             this.saturn.Location = new System.Drawing.Point(1091, 996);
             this.saturn.Name = "saturn";
@@ -618,7 +620,8 @@ namespace KSYSHA_KYRS
             // jupiter
             // 
             this.jupiter.AutoSize = true;
-            this.jupiter.BackColor = System.Drawing.SystemColors.Highlight;
+            this.jupiter.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.jupiter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.jupiter.Location = new System.Drawing.Point(964, 996);
             this.jupiter.Name = "jupiter";
             this.jupiter.Size = new System.Drawing.Size(92, 23);
@@ -628,6 +631,7 @@ namespace KSYSHA_KYRS
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::KSYSHA_KYRS.Properties.Resources.JUPITER_BRP_TRUE;
             this.pictureBox4.Location = new System.Drawing.Point(1512, 412);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(294, 193);
@@ -638,7 +642,9 @@ namespace KSYSHA_KYRS
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(1868, 35);
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::KSYSHA_KYRS.Properties.Resources.close2;
+            this.pictureBox2.Location = new System.Drawing.Point(1802, 41);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(28, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -648,6 +654,8 @@ namespace KSYSHA_KYRS
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::KSYSHA_KYRS.Properties.Resources.back;
             this.pictureBox3.Location = new System.Drawing.Point(24, 35);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(37, 37);
@@ -660,6 +668,7 @@ namespace KSYSHA_KYRS
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::KSYSHA_KYRS.Properties.Resources.JUPITER_SOLO;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1924, 1055);

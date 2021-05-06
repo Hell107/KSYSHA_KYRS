@@ -37,11 +37,9 @@ namespace KSYSHA_KYRS
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.venus = new System.Windows.Forms.Label();
             this.neptune = new System.Windows.Forms.Label();
             this.date = new System.Windows.Forms.Label();
             this.earth = new System.Windows.Forms.Label();
-            this.mercury = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -76,6 +74,8 @@ namespace KSYSHA_KYRS
             this.label17 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.mercury = new System.Windows.Forms.Label();
+            this.venus = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -98,15 +98,16 @@ namespace KSYSHA_KYRS
             // 
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label31.Location = new System.Drawing.Point(1219, 996);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(64, 23);
             this.label31.TabIndex = 112;
             this.label31.Text = "УРАН";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // panel8
             // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.label27);
             this.panel8.Controls.Add(this.label28);
             this.panel8.Location = new System.Drawing.Point(1518, 683);
@@ -148,11 +149,11 @@ namespace KSYSHA_KYRS
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label22.Location = new System.Drawing.Point(209, 5);
+            this.label22.Location = new System.Drawing.Point(254, 6);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(72, 20);
+            this.label22.Size = new System.Drawing.Size(27, 20);
             this.label22.TabIndex = 3;
-            this.label22.Text = "цельсий";
+            this.label22.Text = "°C";
             // 
             // label30
             // 
@@ -165,25 +166,17 @@ namespace KSYSHA_KYRS
             this.label30.TabIndex = 104;
             this.label30.Text = "поверхность марса";
             // 
-            // venus
-            // 
-            this.venus.AutoSize = true;
-            this.venus.BackColor = System.Drawing.Color.Transparent;
-            this.venus.Location = new System.Drawing.Point(618, 996);
-            this.venus.Name = "venus";
-            this.venus.Size = new System.Drawing.Size(84, 23);
-            this.venus.TabIndex = 111;
-            this.venus.Text = "ВЕНЕРА";
-            // 
             // neptune
             // 
             this.neptune.AutoSize = true;
             this.neptune.BackColor = System.Drawing.Color.Transparent;
+            this.neptune.Cursor = System.Windows.Forms.Cursors.Hand;
             this.neptune.Location = new System.Drawing.Point(1311, 996);
             this.neptune.Name = "neptune";
             this.neptune.Size = new System.Drawing.Size(84, 23);
             this.neptune.TabIndex = 110;
             this.neptune.Text = "НЕПТУН";
+            this.neptune.Click += new System.EventHandler(this.neptune_Click);
             // 
             // date
             // 
@@ -201,22 +194,13 @@ namespace KSYSHA_KYRS
             // 
             this.earth.AutoSize = true;
             this.earth.BackColor = System.Drawing.Color.Transparent;
+            this.earth.Cursor = System.Windows.Forms.Cursors.Hand;
             this.earth.Location = new System.Drawing.Point(739, 996);
             this.earth.Name = "earth";
             this.earth.Size = new System.Drawing.Size(75, 23);
             this.earth.TabIndex = 109;
             this.earth.Text = "ЗЕМЛЯ";
-            // 
-            // mercury
-            // 
-            this.mercury.AutoSize = true;
-            this.mercury.BackColor = System.Drawing.Color.Transparent;
-            this.mercury.Location = new System.Drawing.Point(464, 996);
-            this.mercury.Name = "mercury";
-            this.mercury.Size = new System.Drawing.Size(117, 23);
-            this.mercury.TabIndex = 108;
-            this.mercury.Text = "МЕРКУРИЙ";
-            this.mercury.Click += new System.EventHandler(this.mercury_Click);
+            this.earth.Click += new System.EventHandler(this.earth_Click);
             // 
             // label29
             // 
@@ -233,6 +217,7 @@ namespace KSYSHA_KYRS
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Location = new System.Drawing.Point(851, 996);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 23);
@@ -241,7 +226,6 @@ namespace KSYSHA_KYRS
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label21);
             this.panel1.Controls.Add(this.label22);
             this.panel1.Location = new System.Drawing.Point(1518, 828);
@@ -253,6 +237,7 @@ namespace KSYSHA_KYRS
             // 
             this.jupiter.AutoSize = true;
             this.jupiter.BackColor = System.Drawing.Color.Transparent;
+            this.jupiter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.jupiter.Location = new System.Drawing.Point(964, 996);
             this.jupiter.Name = "jupiter";
             this.jupiter.Size = new System.Drawing.Size(92, 23);
@@ -275,6 +260,7 @@ namespace KSYSHA_KYRS
             // 
             this.saturn.AutoSize = true;
             this.saturn.BackColor = System.Drawing.Color.Transparent;
+            this.saturn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.saturn.ForeColor = System.Drawing.Color.White;
             this.saturn.Location = new System.Drawing.Point(1091, 996);
             this.saturn.Name = "saturn";
@@ -285,7 +271,6 @@ namespace KSYSHA_KYRS
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.label25);
             this.panel2.Location = new System.Drawing.Point(1518, 755);
@@ -336,13 +321,13 @@ namespace KSYSHA_KYRS
             // 
             // panel7
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.label18);
             this.panel7.Controls.Add(this.label19);
             this.panel7.Location = new System.Drawing.Point(106, 762);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(288, 33);
             this.panel7.TabIndex = 93;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // label18
             // 
@@ -377,12 +362,12 @@ namespace KSYSHA_KYRS
             // 
             // panel5
             // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label13);
             this.panel5.Location = new System.Drawing.Point(106, 617);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(288, 33);
             this.panel5.TabIndex = 89;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // label13
             // 
@@ -408,13 +393,13 @@ namespace KSYSHA_KYRS
             // 
             // panel3
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Location = new System.Drawing.Point(106, 473);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(288, 33);
             this.panel3.TabIndex = 83;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // label8
             // 
@@ -471,13 +456,13 @@ namespace KSYSHA_KYRS
             // 
             // panel4
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Location = new System.Drawing.Point(106, 544);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(288, 33);
             this.panel4.TabIndex = 87;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // label6
             // 
@@ -512,13 +497,13 @@ namespace KSYSHA_KYRS
             // 
             // panel6
             // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label14);
             this.panel6.Controls.Add(this.label16);
             this.panel6.Location = new System.Drawing.Point(106, 689);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(288, 33);
             this.panel6.TabIndex = 91;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // label14
             // 
@@ -572,11 +557,33 @@ namespace KSYSHA_KYRS
             this.label7.TabIndex = 113;
             this.label7.Text = "планета земной группы";
             // 
+            // mercury
+            // 
+            this.mercury.AutoSize = true;
+            this.mercury.BackColor = System.Drawing.Color.Transparent;
+            this.mercury.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mercury.Location = new System.Drawing.Point(464, 996);
+            this.mercury.Name = "mercury";
+            this.mercury.Size = new System.Drawing.Size(117, 23);
+            this.mercury.TabIndex = 108;
+            this.mercury.Text = "МЕРКУРИЙ";
+            this.mercury.Click += new System.EventHandler(this.mercury_Click);
+            // 
+            // venus
+            // 
+            this.venus.AutoSize = true;
+            this.venus.BackColor = System.Drawing.Color.Transparent;
+            this.venus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.venus.Location = new System.Drawing.Point(618, 996);
+            this.venus.Name = "venus";
+            this.venus.Size = new System.Drawing.Size(84, 23);
+            this.venus.TabIndex = 111;
+            this.venus.Text = "ВЕНЕРА";
+            this.venus.Click += new System.EventHandler(this.venus_Click);
+            // 
             // pictureBox4
             // 
-#pragma warning disable CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
             this.pictureBox4.Image = global::KSYSHA_KYRS.Properties.Resources.mars_small1;
-#pragma warning restore CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
             this.pictureBox4.Location = new System.Drawing.Point(1512, 412);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(294, 193);
@@ -586,21 +593,20 @@ namespace KSYSHA_KYRS
             // 
             // pictureBox2
             // 
-#pragma warning disable CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::KSYSHA_KYRS.Properties.Resources.close2;
-#pragma warning restore CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
-            this.pictureBox2.Location = new System.Drawing.Point(1868, 35);
+            this.pictureBox2.Location = new System.Drawing.Point(1823, 35);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(28, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 81;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
-#pragma warning disable CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::KSYSHA_KYRS.Properties.Resources.back;
-#pragma warning restore CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
             this.pictureBox3.Location = new System.Drawing.Point(24, 35);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(37, 37);
@@ -613,9 +619,7 @@ namespace KSYSHA_KYRS
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-#pragma warning disable CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
             this.pictureBox1.Image = global::KSYSHA_KYRS.Properties.Resources.MARS_SOLO;
-#pragma warning restore CS0234 // Тип или имя пространства имен "Resources" не существует в пространстве имен "KSYSHA_KYRS.Properties" (возможно, отсутствует ссылка на сборку).
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1924, 1055);
@@ -704,11 +708,9 @@ namespace KSYSHA_KYRS
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label venus;
         private System.Windows.Forms.Label neptune;
         private System.Windows.Forms.Label date;
         private System.Windows.Forms.Label earth;
-        private System.Windows.Forms.Label mercury;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
@@ -747,5 +749,7 @@ namespace KSYSHA_KYRS
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label mercury;
+        private System.Windows.Forms.Label venus;
     }
 }
