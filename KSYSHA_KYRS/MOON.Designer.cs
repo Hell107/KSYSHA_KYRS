@@ -524,7 +524,6 @@ namespace KSYSHA_KYRS
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::KSYSHA_KYRS.Properties.Resources.MOON1;
             this.pictureBox4.Location = new System.Drawing.Point(1512, 388);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(294, 217);
@@ -536,7 +535,6 @@ namespace KSYSHA_KYRS
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::KSYSHA_KYRS.Properties.Resources.close2;
             this.pictureBox2.Location = new System.Drawing.Point(1822, 35);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(28, 31);
@@ -548,7 +546,6 @@ namespace KSYSHA_KYRS
             // pictureBox3
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::KSYSHA_KYRS.Properties.Resources.back;
             this.pictureBox3.Location = new System.Drawing.Point(28, 35);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(37, 37);
@@ -561,7 +558,6 @@ namespace KSYSHA_KYRS
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::KSYSHA_KYRS.Properties.Resources.MOON_NED;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1924, 1055);

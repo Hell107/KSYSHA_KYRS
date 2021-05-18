@@ -134,7 +134,7 @@ namespace KSYSHA_KYRS
             k++;
             if (k % 2 == 0)
             {
-                pictureBox1.Image = Properties.Resources.EARTH_CLOUD_SOLO;
+                pictureBox1.Image = Properties.Resources.EARTH_CLOUD_SOLO1;
 
             }
             else pictureBox1.Image = Properties.Resources.EARTH_SOLO;

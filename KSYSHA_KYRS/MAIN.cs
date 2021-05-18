@@ -205,5 +205,55 @@ namespace KSYSHA_KYRS
         {
             Close();
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            MILKY_WAY f = new MILKY_WAY();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
+
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            SUN  f = new SUN();
+            f.Opacity = 0;
+            f.Show();
+            for (int i = 0; i <= 100; i++)
+            {
+                f.Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(2);//чем меньше число, тем быстрее появится
+            }
+
+            for (int i = 100; i >= 0; i--)
+            {
+                Opacity = i / 100.0;
+                System.Threading.Thread.Sleep(1); //чем меньше число, тем быстрее исчезнет
+
+            }
+            Hide();
+        }
     }
 }

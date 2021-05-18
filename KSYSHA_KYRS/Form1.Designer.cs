@@ -749,6 +749,14 @@ namespace KSYSHA_KYRS
         }
 
         #endregion
+
+        private System.Windows.Forms.Label venus;
+        private System.Windows.Forms.Label neptune;
+        private System.Windows.Forms.Label earth;
+        private System.Windows.Forms.Label mercury;
+        private System.Windows.Forms.Label mars;
+        private System.Windows.Forms.Label saturn;
+        private System.Windows.Forms.Label jupiter;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
@@ -793,13 +801,6 @@ namespace KSYSHA_KYRS
         private System.Windows.Forms.Label date;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label venus;
-        private System.Windows.Forms.Label neptune;
-        private System.Windows.Forms.Label earth;
-        private System.Windows.Forms.Label mercury;
-        private System.Windows.Forms.Label mars;
-        private System.Windows.Forms.Label saturn;
-        private System.Windows.Forms.Label jupiter;
     }
 }
 
